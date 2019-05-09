@@ -1,0 +1,21 @@
+var promise = new Promise(function(resolve, reject) {
+// do a thing, possibly async, then...
+if (/<em> everything turned out fine </em>/) {
+resolve("Stuff worked!");
+}
+else {
+reject(Error("It broke"));
+}
+});
+
+asyncronus, request data, diterima atau ditolak
+
+latihan :
+1. dicoba codelab promises
+  - full rwd
+  - sw
+  + js promises
+  + promises chaining
+2. tampilkan aplikasi di browser
+3. jika berhasil (beri penjelasan pada main.js)
+4. push ke repo masing2
